@@ -646,13 +646,24 @@ h5,
 h6,
 p,
 label,
-.btn,
-li,
-a {
+.btn
+ {
     font-family: "helvetica";
     font-weight: 400;
     color: #333!important;
     list-style: none;
+}
+
+li,
+a {
+    font-family: "helvetica";
+    font-weight: 400;
+    color:#FFFFFF !important;
+    list-style:none;
+}
+
+.header_link {
+    color:#333 !important;
 }
 
 .container {
@@ -776,7 +787,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(153, 106, 53, 0.8);
+    background-color: #c54900;
+    opacity:.9;
     padding: 40px 40px 40px 40px;
 }
 
@@ -794,7 +806,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #c54900;
 }
 
 .tc-white {
@@ -802,13 +814,13 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #fa8751;
-    color: #FFFFFF!important;
+    background: #ffffff;
+    color: #c54900!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #ff7738!important;
-    color: #FFFFFF!important;
+    background: #c54900!important;
+    color: #ffffff!important;
 }
 
 .ltc-white {
@@ -820,11 +832,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #c54900!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #c93000!important;
 }
 
 .icon-dark-slate-blue {
@@ -832,8 +844,17 @@ h4 {
     border-color: #364577!important;
 }
 
+.text_link{
+    color:#fff;
+    text-decoration:underline;
+    font-weight:bold;
+    
+}
+
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
+
+
 }
 
 .bg-lines-h2-bg {
