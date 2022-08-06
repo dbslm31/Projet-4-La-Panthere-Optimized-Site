@@ -1,5 +1,6 @@
 @font-face {
     font-family: et-line;
+    font-display:swap;
     src: url(../fonts/et-line.eot);
     src: url(../fonts/et-line.eot?#iefix) format('embedded-opentype'), url(../fonts/et-line.woff) format('woff'), url(../fonts/et-line.ttf) format('truetype'), url(../fonts/et-line.svg#et-line) format('svg');
     font-weight: 400;
