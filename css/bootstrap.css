@@ -9,7 +9,8 @@
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%
+    -ms-text-size-adjust: 100%;
+    font-display:swap;
 }
 
 body {
@@ -65,16 +66,19 @@ abbr[title] {
 
 b,
 strong {
-    font-weight: 700
+    font-weight: 700;
+    font-display:swap;
 }
 
 dfn {
-    font-style: italic
+    font-style: italic;
+    font-display:swap;
 }
 
 h1 {
     margin: .67em 0;
-    font-size: 2em
+    font-size: 2em;
+    font-display:swap;
 }
 
 mark {
@@ -83,13 +87,15 @@ mark {
 }
 
 small {
-    font-size: 80%
+    font-size: 80%;
+    font-display:swap;
 }
 
 sub,
 sup {
     position: relative;
     font-size: 75%;
+    font-display:swap;
     line-height: 0;
     vertical-align: baseline
 }
@@ -130,6 +136,7 @@ kbd,
 pre,
 samp {
     font-family: monospace, monospace;
+    font-display:swap;
     font-size: 1em
 }
 
@@ -140,6 +147,7 @@ select,
 textarea {
     margin: 0;
     font: inherit;
+    font-display:swap;
     color: inherit
 }
 
@@ -305,6 +313,7 @@ th {
 
 @font-face {
     font-family: 'Glyphicons Halflings';
+    font-display:swap;
     src: url(../fonts/glyphicons-halflings-regular.eot);
     src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
@@ -314,6 +323,7 @@ th {
     top: 1px;
     display: inline-block;
     font-family: 'Glyphicons Halflings';
+    font-display:swap;
     font-style: normal;
     font-weight: 400;
     line-height: 1;
@@ -1385,11 +1395,13 @@ th {
 
 html {
     font-size: 10px;
+    font-display:swap;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-display:swap;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
@@ -1401,6 +1413,7 @@ input,
 select,
 textarea {
     font-family: inherit;
+    font-display:swap;
     font-size: inherit;
     line-height: inherit
 }
@@ -1507,6 +1520,7 @@ h4,
 h5,
 h6 {
     font-family: inherit;
+    font-display:swap;
     font-weight: 500;
     line-height: 1.1;
     color: inherit
@@ -1537,6 +1551,7 @@ h5 small,
 h6 .small,
 h6 small {
     font-weight: 400;
+    font-display:swap;
     line-height: 1;
     color: #777
 }
@@ -1563,7 +1578,8 @@ h2 .small,
 h2 small,
 h3 .small,
 h3 small {
-    font-size: 65%
+    font-size: 65%;
+    font-display:swap;
 }
 
 .h4,
@@ -1588,37 +1604,44 @@ h5 .small,
 h5 small,
 h6 .small,
 h6 small {
-    font-size: 75%
+    font-size: 75%;
+    font-display:swap;
 }
 
 .h1,
 h1 {
-    font-size: 36px
+    font-size: 36px;
+    font-display:swap;
 }
 
 .h2,
 h2 {
-    font-size: 30px
+    font-size: 30px;
+    font-display:swap;
 }
 
 .h3,
 h3 {
-    font-size: 24px
+    font-size: 24px;
+    font-display:swap;
 }
 
 .h4,
 h4 {
-    font-size: 18px
+    font-size: 18px;
+    font-display:swap;
 }
 
 .h5,
 h5 {
-    font-size: 14px
+    font-size: 14px;
+    font-display:swap;
 }
 
 .h6,
 h6 {
-    font-size: 12px
+    font-size: 12px;
+    font-display:swap;
 }
 
 p {
@@ -1628,19 +1651,22 @@ p {
 .lead {
     margin-bottom: 20px;
     font-size: 16px;
+    font-display:swap;
     font-weight: 300;
     line-height: 1.4
 }
 
 @media (min-width:768px) {
     .lead {
-        font-size: 21px
+        font-size: 21px;
+        font-display:swap;
     }
 }
 
 .small,
 small {
-    font-size: 85%
+    font-size: 85%;
+    font-display:swap;
 }
 
 .mark,
@@ -1824,7 +1850,8 @@ dt {
 }
 
 dt {
-    font-weight: 700
+    font-weight: 700;
+    font-display:swap;
 }
 
 dd {
@@ -1854,6 +1881,7 @@ abbr[title] {
 
 .initialism {
     font-size: 90%;
+    font-display:swap;
     text-transform: uppercase
 }
 
@@ -1861,6 +1889,7 @@ blockquote {
     padding: 10px 20px;
     margin: 0 0 20px;
     font-size: 17.5px;
+    font-display:swap;
     border-left: 5px solid #eee
 }
 
@@ -1875,6 +1904,7 @@ blockquote footer,
 blockquote small {
     display: block;
     font-size: 80%;
+    font-display:swap;
     line-height: 1.42857143;
     color: #777
 }
@@ -1915,6 +1945,7 @@ blockquote.pull-right small:after {
 address {
     margin-bottom: 20px;
     font-style: normal;
+    font-display:swap;
     line-height: 1.42857143
 }
 
@@ -1923,11 +1954,13 @@ kbd,
 pre,
 samp {
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace
+    font-display:swap;
 }
 
 code {
     padding: 2px 4px;
     font-size: 90%;
+    font-display:swap;
     color: #c7254e;
     background-color: #f9f2f4;
     border-radius: 4px
@@ -1936,6 +1969,7 @@ code {
 kbd {
     padding: 2px 4px;
     font-size: 90%;
+    font-display:swap;
     color: #fff;
     background-color: #333;
     border-radius: 3px;
@@ -1946,6 +1980,7 @@ kbd {
 kbd kbd {
     padding: 0;
     font-size: 100%;
+    font-display:swap;
     font-weight: 700;
     -webkit-box-shadow: none;
     box-shadow: none
@@ -1956,6 +1991,7 @@ pre {
     padding: 9.5px;
     margin: 0 0 10px;
     font-size: 13px;
+    font-display:swap;
     line-height: 1.42857143;
     color: #333;
     word-break: break-all;
@@ -1968,6 +2004,7 @@ pre {
 pre code {
     padding: 0;
     font-size: inherit;
+    font-display:swap;
     color: inherit;
     white-space: pre-wrap;
     background-color: transparent;
@@ -3082,6 +3119,7 @@ legend {
     padding: 0;
     margin-bottom: 20px;
     font-size: 21px;
+    font-display:swap;
     line-height: inherit;
     color: #333;
     border: 0;
@@ -3092,7 +3130,8 @@ label {
     display: inline-block;
     max-width: 100%;
     margin-bottom: 5px;
-    font-weight: 700
+    font-weight: 700;
+    font-display:swap;
 }
 
 input[type=search] {
@@ -3134,6 +3173,7 @@ output {
     display: block;
     padding-top: 7px;
     font-size: 14px;
+    font-display:swap;
     line-height: 1.42857143;
     color: #555
 }
@@ -3244,6 +3284,7 @@ input[type=search] {
     padding-left: 20px;
     margin-bottom: 0;
     font-weight: 400;
+    font-display:swap;
     cursor: pointer
 }
 
@@ -3268,6 +3309,7 @@ input[type=search] {
     padding-left: 20px;
     margin-bottom: 0;
     font-weight: 400;
+    font-display:swap;
     vertical-align: middle;
     cursor: pointer
 }
@@ -3318,6 +3360,7 @@ fieldset[disabled] .radio label {
     height: 30px;
     padding: 5px 10px;
     font-size: 12px;
+    font-display:swap;
     line-height: 1.5;
     border-radius: 3px
 }
@@ -3336,6 +3379,7 @@ textarea.input-sm {
     height: 30px;
     padding: 5px 10px;
     font-size: 12px;
+    font-display:swap;
     line-height: 1.5;
     border-radius: 3px
 }
@@ -3355,6 +3399,7 @@ textarea.input-sm {
     min-height: 32px;
     padding: 6px 10px;
     font-size: 12px;
+    font-display:swap;
     line-height: 1.5
 }
 
@@ -3362,6 +3407,7 @@ textarea.input-sm {
     height: 46px;
     padding: 10px 16px;
     font-size: 18px;
+    font-display:swap;
     line-height: 1.3333333;
     border-radius: 6px
 }
@@ -3380,6 +3426,7 @@ textarea.input-lg {
     height: 46px;
     padding: 10px 16px;
     font-size: 18px;
+    font-display:swap;
     line-height: 1.3333333;
     border-radius: 6px
 }
@@ -3399,6 +3446,7 @@ textarea.input-lg {
     min-height: 38px;
     padding: 11px 16px;
     font-size: 18px;
+    font-display:swap;
     line-height: 1.3333333
 }
 
@@ -3645,6 +3693,7 @@ textarea.input-lg {
     .form-horizontal .form-group-lg .control-label {
         padding-top: 14.33px;
         font-size: 18px
+        font-display:swap;
     }
 }
 
@@ -3652,6 +3701,7 @@ textarea.input-lg {
     .form-horizontal .form-group-sm .control-label {
         padding-top: 6px;
         font-size: 12px
+        font-display:swap;
     }
 }
 
@@ -3660,6 +3710,7 @@ textarea.input-lg {
     padding: 6px 12px;
     margin-bottom: 0;
     font-size: 14px;
+    font-display:swap;
     font-weight: 400;
     line-height: 1.42857143;
     text-align: center;
@@ -4164,6 +4215,7 @@ fieldset[disabled] .btn-danger:hover {
 
 .btn-link {
     font-weight: 400;
+    font-display:swap;
     color: #337ab7;
     border-radius: 0
 }
@@ -4204,6 +4256,7 @@ fieldset[disabled] .btn-link:hover {
 .btn-lg {
     padding: 10px 16px;
     font-size: 18px;
+    font-display:swap;
     line-height: 1.3333333;
     border-radius: 6px
 }
@@ -4212,6 +4265,7 @@ fieldset[disabled] .btn-link:hover {
 .btn-sm {
     padding: 5px 10px;
     font-size: 12px;
+    font-display:swap;
     line-height: 1.5;
     border-radius: 3px
 }
@@ -4220,6 +4274,7 @@ fieldset[disabled] .btn-link:hover {
 .btn-xs {
     padding: 1px 5px;
     font-size: 12px;
+    font-display:swap;
     line-height: 1.5;
     border-radius: 3px
 }
@@ -4313,6 +4368,7 @@ tbody.collapse.in {
     padding: 5px 0;
     margin: 2px 0 0;
     font-size: 14px;
+    font-display:swap;
     text-align: left;
     list-style: none;
     background-color: #fff;
@@ -4342,6 +4398,7 @@ tbody.collapse.in {
     padding: 3px 20px;
     clear: both;
     font-weight: 400;
+    font-display:swap;
     line-height: 1.42857143;
     color: #333;
     white-space: nowrap

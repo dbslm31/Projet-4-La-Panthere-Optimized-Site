@@ -284,6 +284,7 @@ a:hover {
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
+    font-display:swap;
 }
 
 .navbar {
@@ -295,6 +296,7 @@ a:hover {
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
+    font-display:swap;
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
@@ -325,6 +327,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    font-display:swap;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -476,10 +479,12 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    font-display:swap;
 }
 
 .icon-lg {
     font-size: 60px!important;
+    font-display:swap;
 }
 
 .sm-shadow {
@@ -526,6 +531,7 @@ button {
 
 .showScrollTop {
     font-size: 14px;
+    font-display:swap;
     opacity: 1;
 }
 
@@ -538,6 +544,7 @@ a[data-lightbox] {
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-display:swap;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -588,6 +595,7 @@ a[data-lightbox]:hover img {
 .close-lightbox {
     color: #FFF;
     font-size: 30px;
+    font-display:swap;
     position: absolute;
     top: 20px;
     right: 20px;
@@ -609,6 +617,7 @@ a[data-lightbox]:hover img {
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
+    font-display:swap;
     color: rgba(255, 255, 255, .9);
     background: rgba(0, 0, 0, .5);
     transition: all .2s ease-in-out;
@@ -649,6 +658,7 @@ label,
 .btn
  {
     font-family: "helvetica";
+    font-display:swap;
     font-weight: 400;
     color: #333!important;
     list-style: none;
@@ -657,6 +667,7 @@ label,
 li,
 a {
     font-family: "helvetica";
+    font-display:swap;
     font-weight: 400;
     color:#FFFFFF !important;
     list-style:none;
@@ -674,15 +685,18 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    font-display:swap;
 }
 
 .hero-bloc-text-sub {
     font-size: 36px;
+    font-display:swap;
 }
 
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
+    font-display:swap;
     font-size: 20px;
     text-align: center;
     font-weight: lighter;
@@ -692,12 +706,14 @@ a {
 
 p {
     font-size: 15px;
+    font-display:swap;
 }
 
 .text-emphasis {
     font-size: 22px;
     color:#828282;
     font-weight: 600;
+    font-display:swap;
     font-style: oblique;
     margin-left:40px;
     margin-right:40px;
@@ -710,10 +726,12 @@ p {
     font-style: oblique;
     margin-left:40px;
     margin-right:40px;
+    font-display:swap;
 }
 
 .text-info {
     font-size:18px;
+    font-display:swap;
 }
 
 .tight-width-whitespace {
@@ -724,6 +742,7 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+    font-display:swap;
 }
 
 .cta-hero {
@@ -732,6 +751,7 @@ p {
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
+    font-display:swap;
     font-weight: 700;
 }
 
@@ -742,6 +762,7 @@ p {
 
 h2 {
     font-size: 22px;
+    font-display:swap;
     line-height: 1.4em;
 }
 
@@ -750,6 +771,7 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+    font-display:swap;
 }
 
 .med-width-whitespace {
@@ -850,6 +872,7 @@ h4 {
     color:#fff;
     text-decoration:underline;
     font-weight:bold;
+    font-display:swap;
     
 }
 
