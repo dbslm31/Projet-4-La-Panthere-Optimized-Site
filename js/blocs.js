@@ -198,6 +198,4 @@ $(document).ready(function() {
     setFillScreenBlocHeight(), animateWhenVisible(), $("#page-loading-blocs-notifaction").remove()
 }).resize(function() {
     setFillScreenBlocHeight()
-}), $(function() {
-    $('[data-toggle="tooltip"]').tooltip()
-});
+})
