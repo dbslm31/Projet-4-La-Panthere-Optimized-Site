@@ -25,6 +25,10 @@
   ExpiresByType text/css "access plus 1 year"
   ExpiresByType text/javascript "access plus 1 year"
   ExpiresByType application/javascript "access plus 1 year"
+  
+  <FilesMatch "bootstrap\.(css)$">
+  Header set Cache-Control "max-age=31536000"
+ </FilesMatch>
 
   # Others
   ExpiresByType application/pdf "access plus 1 year"
